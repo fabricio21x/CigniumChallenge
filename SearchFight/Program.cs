@@ -13,7 +13,7 @@ namespace SearchFight
     public class Program
     {
         public static void Main(string[] args)
-        {            
+        {
             var runners = GetConfiguration().SearchRunners.ToList();
             SearchProcessor processor = new SearchProcessor(runners);
 
@@ -23,9 +23,10 @@ namespace SearchFight
                 Query query = new Query();
 
                 if (word.StartsWith("\""))
-                {                    
+                {
                     query.SetContent(word.Substring(1));
-                    while (true){
+                    while (true)
+                    {
                         string nextWord = args[i++];
                         if (nextWord.EndsWith("\""))
                         {
@@ -35,33 +36,40 @@ namespace SearchFight
                         else
                             query.SetContent(nextWord);
                     }
-                }else
+                }
+                else
                     query.SetContent(word);
 
                 processor.AddQuery(query);
             }
             processor.ProcessQueries();
+            PrintResults(processor, runners);
 
+            Console.ReadLine();
+
+        }
+
+
+        private static void PrintResults(SearchProcessor processor, List<RunnerSerializer> runners)
+        {
             for (int i = 0; i < processor.Queries.Count; i++)
             {
-                Console.Write(string.Format("{0}) {1}: ",i, processor.Queries[i]));
+                Console.Write(string.Format("{0}) {1}: ", i, processor.Queries[i]));
                 for (int j = 0; j < runners.Count; j++)
                 {
-                    Console.Write(string.Format("| {0} > {1} | ",runners[j].SearchEngineName,processor.Results[i,j]));
+                    Console.Write(string.Format("| {0} > {1} | ", runners[j].SearchEngineName, processor.Results[i, j]));
                 }
                 Console.WriteLine();
             }
 
             foreach (var winner in processor.PartialWinners)
             {
-                Console.WriteLine(string.Format("*) {0} winner: {1}",winner.Key,winner.Value));
+                Console.WriteLine(string.Format("*) {0} winner: {1}", winner.Key, winner.Value));
             }
 
-            Console.WriteLine(string.Format("> Total winner: {0}",processor.TotalWinner));
-
-            Console.ReadLine();
-              
+            Console.WriteLine(string.Format("> Total winner: {0}", processor.TotalWinner));
         }
+
 
         private static ProgramConfiguration GetConfiguration()
         {
@@ -78,5 +86,5 @@ namespace SearchFight
                 }
             }
         }
-    }    
+    }
 }

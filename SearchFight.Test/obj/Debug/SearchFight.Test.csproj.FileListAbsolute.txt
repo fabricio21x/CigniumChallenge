@@ -8,3 +8,13 @@ C:\Users\Fabricio Monsalve\Documents\CigniumChallenge\SearchFight\SearchFight.Te
 C:\Users\Fabricio Monsalve\Documents\CigniumChallenge\SearchFight\SearchFight.Test\obj\Debug\SearchFight.Test.csprojResolveAssemblyReference.cache
 C:\Users\Fabricio Monsalve\Documents\CigniumChallenge\SearchFight\SearchFight.Test\obj\Debug\SearchFight.Test.dll
 C:\Users\Fabricio Monsalve\Documents\CigniumChallenge\SearchFight\SearchFight.Test\obj\Debug\SearchFight.Test.pdb
+C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Debug\SearchFight.Test.dll
+C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Debug\SearchFight.Test.pdb
+C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Debug\nunit.framework.dll
+C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Debug\SearchFight.exe
+C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Debug\SearchFight.pdb
+C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Debug\nunit.framework.xml
+C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\obj\Debug\SearchFight.Test.csprojResolveAssemblyReference.cache
+C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\obj\Debug\SearchFight.Test.dll
+C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\obj\Debug\SearchFight.Test.pdb

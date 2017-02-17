@@ -1,0 +1,6 @@
+C:\Users\Fabricio Monsalve\Documents\CigniumChallenge\SearchFight\SearchFight\bin\Debug\SearchFight.exe.config
+C:\Users\Fabricio Monsalve\Documents\CigniumChallenge\SearchFight\SearchFight\bin\Debug\SearchFight.exe
+C:\Users\Fabricio Monsalve\Documents\CigniumChallenge\SearchFight\SearchFight\bin\Debug\SearchFight.pdb
+C:\Users\Fabricio Monsalve\Documents\CigniumChallenge\SearchFight\SearchFight\obj\Debug\SearchFight.csprojResolveAssemblyReference.cache
+C:\Users\Fabricio Monsalve\Documents\CigniumChallenge\SearchFight\SearchFight\obj\Debug\SearchFight.exe
+C:\Users\Fabricio Monsalve\Documents\CigniumChallenge\SearchFight\SearchFight\obj\Debug\SearchFight.pdb

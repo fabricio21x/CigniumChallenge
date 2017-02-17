@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SearchFight.Model
 {
-    public class Query
+    public class Query : IQuery
     {
         List<string> _content;
 

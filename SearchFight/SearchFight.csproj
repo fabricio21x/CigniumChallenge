@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\IQuery.cs" />
     <Compile Include="Model\ProgramConfiguration.cs" />
     <Compile Include="Model\RunnerSerializer.cs" />
     <Compile Include="Model\Query.cs" />

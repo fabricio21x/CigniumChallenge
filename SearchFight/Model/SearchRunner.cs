@@ -33,7 +33,7 @@ namespace SearchFight.Model
             return new Uri(uri);
         }
 
-        public long ProcessQuery(Query query)
+        public long ProcessQuery(IQuery query)
         {
             var uri = GetUri(query.QueryText);
             string response = Client.GetResultString(uri);

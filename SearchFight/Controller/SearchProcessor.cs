@@ -17,7 +17,7 @@ namespace SearchFight.Controller
 {
     public class SearchProcessor
     {
-        private List<Query> _queries;
+        private List<IQuery> _queries;
         private List<RunnerSerializer> _runners;
         private Dictionary<string,string> _partialWinners;
         private long[,] _results;
@@ -53,13 +53,13 @@ namespace SearchFight.Controller
         public SearchProcessor(List<RunnerSerializer> runners)
         {
             _runners = runners;
-            _queries = new List<Query>();
+            _queries = new List<IQuery>();
             _partialWinners = new Dictionary<string, string>();
             _threads = new List<Thread>();         
         }
 
 
-        public void AddQuery(Query query)
+        public void AddQuery(IQuery query)
         {
             _queries.Add(query);
         }

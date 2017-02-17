@@ -9,7 +9,7 @@ namespace SearchFight.Test.Mocks
 {
     public class SearchResultParserMock
     {
-        public string Pattern
+        private string Pattern
         {
             get { return "\\<div[^\\>]+id=\"resultStats\"[^\\>]*\\>About ([\\d\\,\\.]+) results"; }
         }

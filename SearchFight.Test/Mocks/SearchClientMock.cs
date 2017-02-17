@@ -9,12 +9,18 @@ namespace SearchFight.Test.Mocks
 {
     public class SearchClientMock
     {
+        private string _response;
+
         public string GetResultString()
+        {            
+            return _response;
+        }
+
+        public SearchClientMock()
         {
             var stream = File.OpenRead("responseString.txt");
             StreamReader reader = new StreamReader(stream);
-            string response = reader.ReadToEnd();
-            return response;
+            _response = reader.ReadToEnd();
         }
     }
 }

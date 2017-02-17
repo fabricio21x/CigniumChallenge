@@ -14,7 +14,7 @@ namespace SearchFight
     {
         public static void Main(string[] args)
         {
-            if (args.Count() <= 1)
+            if (args.Count() < 1)
             {
                 Console.WriteLine("You have to enter at least one argument");
                 return;
@@ -26,6 +26,14 @@ namespace SearchFight
             for (int i = 0; i < args.Count(); i++)
             {
                 string word = args[i];
+
+                if (string.IsNullOrWhiteSpace(word))
+                {
+                    Console.WriteLine(word + "Is an invalid argument, it wont be processed.");
+                    if (args.Count() > 1) continue;
+                    else return;
+                }                    
+
                 Query query = new Query();
 
                 if (word.StartsWith("\""))

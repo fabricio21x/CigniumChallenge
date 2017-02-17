@@ -48,7 +48,6 @@
     <Compile Include="Model\ProgramConfiguration.cs" />
     <Compile Include="Model\RunnerSerializer.cs" />
     <Compile Include="Model\Query.cs" />
-    <Compile Include="Model\QueryValidator.cs" />
     <Compile Include="Model\SearchClient.cs" />
     <Compile Include="Controller\SearchProcessor.cs" />
     <Compile Include="Model\SearchResultParser.cs" />

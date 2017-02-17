@@ -51,7 +51,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Mocks\SearchClientMock.cs" />
     <Compile Include="Mocks\SearchEngineMock.cs" />
+    <Compile Include="Mocks\SearchResultParserMock.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

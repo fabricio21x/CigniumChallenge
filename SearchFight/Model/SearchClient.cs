@@ -68,7 +68,7 @@ namespace SearchFight.Model
             var encoding = GetEncoding(response, DEFAULT_ENCODING);           
 
             using (var responseStream = response.GetResponseStream())
-            using (var streamReader = new StreamReader(responseStream))
+            using (var streamReader = new StreamReader(responseStream, encoding))
             {
                 string responseText = streamReader.ReadToEnd();
                 return responseText;

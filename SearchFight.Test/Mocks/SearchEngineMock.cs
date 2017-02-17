@@ -19,8 +19,16 @@ namespace SearchFight.Test.Mocks
             get { return "https://www.google.com"; }
         }
 
+        public SearchClientMock Client { get; set; }
+        public SearchResultParserMock Parser { get; set; }
 
+        public long ProcessQuery(string query)
+        {
+            string response = Client.GetResultString();
+            string result = Parser.Parse(response);
 
+            return long.Parse(result.Replace(",", "").Replace(".", ""));
+        }
 
     }
 }

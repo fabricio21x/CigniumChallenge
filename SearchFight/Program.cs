@@ -14,6 +14,12 @@ namespace SearchFight
     {
         public static void Main(string[] args)
         {
+            if (args.Count() <= 1)
+            {
+                Console.WriteLine("You have to enter at least one argument");
+                return;
+            }
+
             var runners = GetConfiguration().SearchRunners.ToList();
             SearchProcessor processor = new SearchProcessor(runners);
 

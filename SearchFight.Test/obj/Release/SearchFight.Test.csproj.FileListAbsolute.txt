@@ -1,9 +1,0 @@
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Release\SearchFight.Test.dll
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Release\SearchFight.Test.pdb
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Release\nunit.framework.dll
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Release\SearchFight.exe
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\bin\Release\SearchFight.pdb
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\obj\Release\SearchFight.Test.csprojResolveAssemblyReference.cache
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\obj\Release\SearchFight.Test.dll
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight.Test\obj\Release\SearchFight.Test.pdb

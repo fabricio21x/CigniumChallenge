@@ -61,6 +61,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="responseString.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\SearchFight\SearchFight.csproj">
       <Project>{6b6cb9e1-23bb-4dbe-a215-e261d3632b5b}</Project>
       <Name>SearchFight</Name>

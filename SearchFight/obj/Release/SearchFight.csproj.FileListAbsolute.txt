@@ -1,5 +1,0 @@
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight\bin\Release\SearchFight.exe.config
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight\bin\Release\SearchFight.exe
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight\bin\Release\SearchFight.pdb
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight\obj\Release\SearchFight.exe
-C:\Users\Fabricio Monsalve\Documents\GitHub\CigniumChallenge\SearchFight\obj\Release\SearchFight.pdb

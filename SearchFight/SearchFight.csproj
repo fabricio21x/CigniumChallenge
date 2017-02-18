@@ -44,7 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\InputValidator.cs" />
     <Compile Include="Model\IQuery.cs" />
+    <Compile Include="Model\IValidator.cs" />
     <Compile Include="Model\ProgramConfiguration.cs" />
     <Compile Include="Model\RunnerSerializer.cs" />
     <Compile Include="Model\Query.cs" />

@@ -22,17 +22,17 @@ namespace SearchFight
 
             var runners = GetConfiguration().SearchRunners.ToList();
             SearchProcessor processor = new SearchProcessor(runners);
+            InputValidator validator = new InputValidator();
+            validator.Pattern = "^[a-zA-Z0-9 ]*$";
 
             for (int i = 0; i < args.Count(); i++)
             {
                 string word = args[i];
-
-                if (string.IsNullOrWhiteSpace(word))
+                if (!validator.Validate(word))
                 {
-                    Console.WriteLine(word + "Is an invalid argument, it wont be processed.");
-                    if (args.Count() > 1) continue;
-                    else return;
-                }                    
+                    Console.WriteLine("One or more arguments are invalid.");
+                    return;
+                }       
 
                 Query query = new Query();
 
